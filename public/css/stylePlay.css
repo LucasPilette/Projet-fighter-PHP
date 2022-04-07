@@ -1,0 +1,231 @@
+
+@import url('http://fonts.cdnfonts.com/css/univia-pro');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 16px;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Univia Pro', sans-serif;
+}
+
+header{
+    color: #fcbf49 ;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    height: 10vh;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.returnHome{
+    margin-right: 50px;
+}
+
+.returnHome>a{
+    text-decoration: none;
+    color: white;
+    transition: 200ms ease;
+}
+
+.returnHome>a:hover{
+    color: #fcbf49;
+    transform: scale(1.1) ;
+}
+
+.container{
+    height: 90vh;
+    width: 80%;
+    background-image: url('/public/src/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lifebars{
+    height: 15%;
+    display: flex;
+    padding:20px 0 ;
+}
+
+.healthFirst{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px ;
+}
+
+.health{
+    background-color: rgb(49, 195, 49);
+    border-radius: 5px;
+    padding: 3px ;
+    border-bottom:10px ;
+}
+
+.rage{
+    color: rgb(138, 16, 16);
+}
+
+.name{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name>div>img{
+    width: 40px;
+}
+
+.attack{
+    display: flex;
+}
+
+.shield{
+    display: flex;
+}
+
+.logoVersus{
+    width: 20%;
+}
+
+.healthSecond{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px ;
+}
+
+h1>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoVersus{
+    display: flex;
+    justify-content: center;
+}
+
+.logoVersus>img{
+    filter: invert(96%) sepia(44%) saturate(5842%) hue-rotate(315deg) brightness(95%) contrast(107%);
+}
+
+.main{
+    display: flex;
+}
+
+.sideText{
+    height: 90vh;
+    width: 20%;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+}
+
+.textContent{
+    height: 80%;
+    border: rgb(35, 35, 35) 15px solid;
+    color: white;
+    line-height: 30px;
+    padding: 15px;
+    font-size: 1.5vw;
+    overflow-y: auto;
+}
+
+.buttonsUser{
+    height: 20%;
+    background-color: rgb(26,26,26);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.previous{
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.fight{
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #fcbf49;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.fight>a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.fighters{
+    height: 80%;
+    display: flex;
+}
+
+.fighters>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.fighters>div>img{
+    transition: 500ms ease-out;
+}
+
+.buttonFight{
+    text-decoration: none;
+    color: inherit;
+}
+
+.winFall{
+    transform: rotate(90deg) translateX(100px);
+}
+
+.looseFall{
+    transform: rotate(-90deg) translateX(-100px);
+}
+
+.red {
+    font-size: 110%;
+    font-weight: bold;
+    color: rgb(223, 47, 47);
+}
+
+.deepRed{
+        font-size: 110%;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+}
+
+.green{
+    font-size: 110%;
+    font-weight: bold;
+    color: rgb(57, 152, 31);
+}
+
+.blue{
+    font-size: 110%;
+    font-weight: bold;
+    color: rgb(45, 166, 190);
+}

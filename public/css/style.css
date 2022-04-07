@@ -1,0 +1,63 @@
+
+@import url('http://fonts.cdnfonts.com/css/univia-pro');
+
+
+
+:root{
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Univia Pro', sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #fcbf49 ;
+    font-size: 2rem;
+    height: 15%;
+}
+
+header>h1{
+    margin: 0;
+}
+
+
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container>form>*{
+    margin: 25px 0;
+}
+
+.container>form>label{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+#pseudo{
+    line-height: 40px;
+}
+
+.playButton{
+    height: 50px;
+    border-radius: 10px;
+    background-color: #494949;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.playButton:hover{
+    cursor: pointer;
+    background-color: #fcbf49;
+}

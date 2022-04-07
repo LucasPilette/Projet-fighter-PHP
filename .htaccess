@@ -1,0 +1,10 @@
+# links follow
+Options +FollowSymlinks 
+# rewrite Apache activate
+RewriteEngine On
+
+# /home -> home-controller.php
+RewriteRule ^home$ controllers/home-controller.php [L]
+
+# /play -> play-controller.php
+RewriteRule ^play$ controllers/play-controller.php [L]
